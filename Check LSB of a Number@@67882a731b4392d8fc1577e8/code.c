@@ -1,6 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
+    int a;
     if (a&1) {
         printf("Set");
     };
