@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    signed int a,b,c;
+    unsigned int a,b,c;
     scanf("%d %d %d", &a,&b,&c);
     float d;
     d= (a+b+c)/3;
