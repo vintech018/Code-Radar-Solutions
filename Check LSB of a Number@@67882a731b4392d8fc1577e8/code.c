@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     if (a&1) {
-        printf("Set\n");
+        printf("Set");
     };
     else{
         printf("Not Set");
