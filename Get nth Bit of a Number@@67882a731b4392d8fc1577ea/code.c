@@ -4,7 +4,7 @@ int main(){
     int num;
     int n;
     scanf("%d",&num,&n);
-    int nthbit= num>>n&1;
+    int nthbit= (num>>n)&1;
     printf("%d",nthbit);
     return 0;
 }
