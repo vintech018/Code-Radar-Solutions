@@ -3,7 +3,7 @@
 int main(){
     int num;
     int n;
-    scanf("%d",&num,&n);
+    scanf("%d %d",&num,&n);
     int nthbit= (num>>n)&1;
     printf("%d",nthbit);
     return 0;
