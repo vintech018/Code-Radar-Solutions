@@ -6,7 +6,7 @@ int main(){
         printf("Positive\n");
     }
     else{
-        printf("Negative")
+        printf("Negative");
     }
     return 0;
 }
