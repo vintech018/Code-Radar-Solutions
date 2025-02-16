@@ -6,7 +6,7 @@ int main() {
 
     scanf(" %c", &x);
 
-    switch ('x') {
+    switch (x) {
         case 1: 
         if ('x'='A'){
             printf("Excellent\n",x);
