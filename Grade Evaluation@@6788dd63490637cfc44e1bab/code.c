@@ -33,7 +33,7 @@ int main() {
             break;
         }
         default:
-        printf("Invallid grade");
+        printf("Invalid grade");
     }
 
     return 0;
