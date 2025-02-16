@@ -4,13 +4,13 @@ int main(){
     int x,y;
     scanf("%d" "%d",&x,&y)
     if (x>y){
-        printf("First")
+        printf("First");
     }
     else if (x<y){
-        printf("Second")
+        printf("Second");
     }
     else{
-        printf("Equal")
+        printf("Equal");
     }
     return 0;
 }
