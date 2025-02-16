@@ -64,7 +64,7 @@ int main(){
             break;
         }
         default:
-        printf("Error\n");
+        printf("Invalid month\n");
     }
     return 0;
 }
