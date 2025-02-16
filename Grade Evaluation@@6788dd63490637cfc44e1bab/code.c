@@ -1,39 +1,30 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
     char x;
 
+    // Taking input
     scanf(" %c", &x);
 
+    // Using switch-case for grading system
     switch (x) {
-        case 1: 
-        if ('x'='A'){
-            printf("Excellent\n",x);
+        case 'A': 
+            printf("Excellent\n");
             break;
-        }
-        case 2: 
-        if ('x'='B'){
-            printf("Good\n",x);
+        case 'B': 
+            printf("Good\n");
             break;
-        }
-        case 3: 
-        if ('x'='C'){
-            printf("Average\n",x);
+        case 'C': 
+            printf("Average\n");
             break;
-        }
-        case 4: 
-        if ('x'='D'){
-            printf("Below Average\n",x);
+        case 'D': 
+            printf("Below Average\n");
             break;
-        }
-        case 5: 
-        if ('x'='F'){
-            printf("Fail\n",x);
+        case 'F': 
+            printf("Fail\n");
             break;
-        }
         default:
-        printf("Invalid grade");
+            printf("Invalid grade\n");
     }
 
     return 0;
