@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main(){
     int x,y;
-    scanf("%d" "%d", &x,&y);
-    for ((x*x=y) || (y*y=x)){
+    scanf("%d %d", &x,&y);
+    if ((x*x=y) || (y*y=x)){
         printf("Yes\n");
     }
     else {
