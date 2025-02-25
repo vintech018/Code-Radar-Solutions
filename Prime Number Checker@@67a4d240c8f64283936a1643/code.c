@@ -19,4 +19,5 @@ int main(){
         printf("%d is not prime\n", n);
     } else {
         printf("%d is prime\n", n);
+        return 0;
 }
